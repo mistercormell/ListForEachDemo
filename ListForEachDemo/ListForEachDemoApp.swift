@@ -11,7 +11,7 @@ import SwiftUI
 struct ListForEachDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(etonians: Etonian.examples)
         }
     }
 }
